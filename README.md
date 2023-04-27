@@ -93,7 +93,8 @@ The following images are taken from the model training phase. The improvement an
     <td align="center">0.981</td>
     <td align="center">29.13</td>
     <td align="center">0.868</td>
-    <!-- <td align="center"><a href="https://mega.nz/folder/Ph0DyJJL#XTYf0aa0_sQ61-Y4LiiFmQ">Link</a></td> -->
+    <td align="center"></td>
+
   </tr>
 </tbody>
 </table>
