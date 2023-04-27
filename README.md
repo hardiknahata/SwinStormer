@@ -1,5 +1,7 @@
 # SwinStormer: High Resolution Image Deraining
-We propose a `Novel Deep Learning Architecture` for the Image Deraining task, or in simple words, to remove rain from a single image.
+We propose a `Novel Deep Learning Architecture` for the Image Deraining task, or in simple words, to remove rain from a single image.  
+
+Report Link: `coming soon`
 
 Our architecture is inspired by the fusion of the following approaches:
 - `Restormer: Efficient Transformer for High-Resolution Image Restoration`  - https://arxiv.org/pdf/2111.09881.pdf
