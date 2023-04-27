@@ -5,8 +5,7 @@ Our architecture is inspired by the fusion of the following approaches:
 - `Restormer: Efficient Transformer for High-Resolution Image Restoration`  - https://arxiv.org/pdf/2111.09881.pdf
 - `Swin Transformer: Hierarchical Vision Transformer using Shifted Windows`  - https://arxiv.org/pdf/2103.14030
 
-![Network Architecture](model-architecture.png)
-<br><br>
+<br>
 ## Requirements
 
 ```
@@ -93,8 +92,7 @@ The following images are taken from the model training phase. The improvement an
     <td align="center">0.981</td>
     <td align="center">29.13</td>
     <td align="center">0.868</td>
-    <td align="center"></td>
-
+    <!-- <td align="center"><a href="https://mega.nz/folder/Ph0DyJJL#XTYf0aa0_sQ61-Y4LiiFmQ">Link</a></td> -->
   </tr>
 </tbody>
 </table>
