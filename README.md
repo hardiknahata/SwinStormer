@@ -6,12 +6,13 @@ Our architecture is inspired by the fusion of the following approaches:
 - `Swin Transformer: Hierarchical Vision Transformer using Shifted Windows`  - https://arxiv.org/pdf/2103.14030
 
 ![Network Architecture](model-architecture.png)
-
+<br><br>
 ## Requirements
 
 ```
 pip install -r requirements.txt
 ```
+<br>
 
 ## Dataset
 
@@ -31,6 +32,8 @@ ensure the directory structure looks like this:
     |-- rain100H
         same as rain100L
 ```
+<br>
+
 
 ## Usage
 
@@ -49,35 +52,53 @@ Download the model from the link given at the bottom of the ReadMe or train the 
 ```
 python main.py --data_name rain100H --model_file result/rain100H.pth
 ```
+<br>
 
-## Results
+
+## Image Deraining Samples
+
+The following images are taken from the model training phase. The improvement and deraining of the image sample can be observed.
+
+![X](sample-1.png)
+
+
+![X](sample-2.png)
+
+<br>
+
+## Benchmarks
 
 <table>
 <thead>
   <tr>
-    <th rowspan="3">Model</th>
+    <th rowspan="1">Model</th>
     <th colspan="2">Rain100L</th>
     <th colspan="2">Rain100H</th>
-    <th rowspan="3">Download</th>
+    <th rowspan="1">Download</th>
   </tr>
   <tr>
+  <td align="center">SwinStormer</td>
+    <!-- <td align="center"></td> -->
     <td align="center">PSNR</td>
     <td align="center">SSIM</td>
     <td align="center">PSNR</td>
     <td align="center">SSIM</td>
+  <td align="center"><a href="https://mega.nz/folder/Ph0DyJJL#XTYf0aa0_sQ61-Y4LiiFmQ">Link</a></td>    
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align="center">SwinStormer</td>
+    <td align="center"></td>
     <td align="center">38.68</td>
     <td align="center">0.981</td>
     <td align="center">29.13</td>
     <td align="center">0.868</td>
-    <td align="center"><a href="https://mega.nz/folder/Ph0DyJJL#XTYf0aa0_sQ61-Y4LiiFmQ">Link</a></td>
+    <!-- <td align="center"><a href="https://mega.nz/folder/Ph0DyJJL#XTYf0aa0_sQ61-Y4LiiFmQ">Link</a></td> -->
   </tr>
 </tbody>
 </table>
+
+<br>
 
 ## License
 This project is licensed under the terms of the GNU General Public License v3.0. You can find a copy of the license in the [LICENSE](LICENSE) file.
