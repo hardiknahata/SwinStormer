@@ -8,6 +8,7 @@ Our architecture is inspired by the fusion of the following approaches:
 - `Swin Transformer: Hierarchical Vision Transformer using Shifted Windows`  - https://arxiv.org/pdf/2103.14030
 
 <br>
+
 ## Requirements
 
 ```
